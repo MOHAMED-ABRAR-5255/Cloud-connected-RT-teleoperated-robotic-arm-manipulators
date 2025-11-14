@@ -25,11 +25,11 @@ The ESP8266 creates a simple HTTP server and sends servo angle commands to the S
 
 ---
 
-## 📡 ESP8266 Code (Webserver)
+## 📡 ESP8266(node MCU) Code (Webserver)
 
 The ESP8266 hosts a simple webpage.  
 
-👉 Full code inside WebServer.ino
+👉 Full code inside esp_nodemcu_code.ino
 
 ---
 
@@ -37,7 +37,7 @@ The ESP8266 hosts a simple webpage.
 
 The STM32 receives UART commands and sends signals to the arm.
 
-👉 Full code inside stm.ino
+👉 Full code inside stm32_code.ino
 
 ---
 
@@ -45,4 +45,4 @@ The STM32 receives UART commands and sends signals to the arm.
 
 The ESP32-cam code hosts a simple webpage with the camera feed.
 
-👉 Full code inside esp_cam.ino
+👉 Full code inside esp_cam_code.ino
